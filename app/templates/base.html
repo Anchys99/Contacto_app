@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto Escolar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+</head>
+<body>
+    <div class="escuela">
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('routes.index') }}">Inicio</a></li>
+                <li><a href="{{ url_for('routes.contacto') }}">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="contenido">
+            {% block contenido %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>

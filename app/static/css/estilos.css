@@ -1,0 +1,90 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+}
+
+nav {
+    background-color: #2563eb;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* Estilos para alinear y ordenar el formulario de manera recta */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.formulario label {
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: -5px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box; /* Asegura que el padding no rompa el ancho */
+    font-family: "Segoe UI", sans-serif;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.boton {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: #1d4ed8;
+}
+
+.mensaje-exito {
+    background-color: #dcfce7;
+    border: 1px solid #22c55e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
